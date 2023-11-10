@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Updated background color */
+    margin: 0;
+    padding: 0;
+    orientation: center;
+
+}
+
+header {
+    background-color:rgb(228, 182, 96); /* Updated background color */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-position: 100%;
+    bottom: 100;
+}
+
+.container {
+    margin: 20px;
+    background-color: rgb(223, 217, 194);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: opacity 0.3s;
+}
+
+
+
+.orphanage-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.fa-donate {
+    color: #4CAF50;
+}
+
+/* Add new styles to place containers side by side */
+#orphanage-list {
+    flex: 1;
+}
+
+#orphanage-details {
+    flex: 1;
+}
+
+
+.orphanage-details img {
+    width: 100%;
+    height: 150px;
+    content: attr(alt);
+}
+
+.container.visible {
+    display: block;
+}
+
+
+.fa-donate {
+    color: #4CAF50;
+}
+
+#orphanage-list {
+    flex: 1;
+}
+
+#orphanage-details {
+    flex: 1;
+}
+
+/* Your other CSS styles */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #222; /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Your existing CSS styles */
+
+/* Create a flex container to place items side by side */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+footer {
+    background-color: #244d44; /* Adjust as needed */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed; /* Make the footer stick to the bottom of the viewport */
+    bottom: 0;
+    width: 100%;
+}
+marquee {
+    color: rgb(37, 27, 9) ;
+    background-color:rgb(239, 225, 199);
+}
+.progress-bar {
+    height: 20px;
+    background-color: #4CAF50;
+}
